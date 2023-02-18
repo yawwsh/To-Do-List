@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.addbtn{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.addbtn:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+.tableheading{
+    text-shadow: 1px 0  red;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#deletebtn{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#deletebtn:hover{
+    background-color: black;
+    font-family:cursive;
+}
+
+.completed td {
+    text-decoration: line-through;
+  }
+  
