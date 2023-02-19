@@ -26,7 +26,24 @@
     font-family:cursive;
 }
 
-.completed td {
+.trash{
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+.trash:hover{
+    color: red;
+}
+.check{
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+.check:hover{
+    color: green;
+}
+.completed{
+    background-color: rgb(170, 211, 197);
+    color: gray;
     text-decoration: line-through;
   }
-  
