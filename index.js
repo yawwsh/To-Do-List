@@ -24,6 +24,9 @@ addtask.addEventListener("click", function() {
     </tr>
   `;
   table.innerHTML += template;
+    
+  taskInput.value = '';
+  descInput.value = '';
   }
 
 });
